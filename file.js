@@ -1,0 +1,1 @@
+await Bun.write("output.txt", await fetch("https://example.com"));
