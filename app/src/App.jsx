@@ -1,9 +1,13 @@
 import "./App.css";
+import Hello from "./component/Hello";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello React with Bun!</h1>
+      <Hello />
+      <Hello />
+      <Hello />
+      <Hello />
     </div>
   );
 }
